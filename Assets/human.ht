@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: human
+  m_BoneTemplate:
+    Chest: Bip001 Spine1
+    Head: Bip001 Head
+    Hips: Bip001 Pelvis
+    Left Thumb Proximal: Bip001 L Finger0
+    LeftFoot: Bip001 L Foot
+    LeftHand: Bip001 L Hand
+    LeftLowerArm: Bip001 L Forearm
+    LeftLowerLeg: Bip001 L Calf
+    LeftShoulder: Bip001 L Clavicle
+    LeftToes: Bip001 L Toe0
+    LeftUpperArm: Bip001 L UpperArm
+    LeftUpperLeg: Bip001 L Thigh
+    Neck: Bip001 Neck
+    Right Thumb Proximal: Bip001 R Finger0
+    RightFoot: Bip001 R Foot
+    RightHand: Bip001 R Hand
+    RightLowerArm: Bip001 R Forearm
+    RightLowerLeg: Bip001 R Calf
+    RightShoulder: Bip001 R Clavicle
+    RightToes: Bip001 R Toe0
+    RightUpperArm: Bip001 R UpperArm
+    RightUpperLeg: Bip001 R Thigh
+    Spine: Bip001 Spine
+    UpperChest: Bip001 Spine2
