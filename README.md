@@ -1,14 +1,14 @@
 https://blog.csdn.net/qq_29579137/article/details/76598929
 
-rem ÎÒµÄ´ò°ü¹¤¾ß
+rem æˆ‘çš„æ‰“åŒ…å·¥å…·
 @echo off
-echo Æô¶¯ Unity.exe ÇëÉÔºó...
-echo ÇåÀí»º´æ
+echo å¯åŠ¨ Unity.exe è¯·ç¨å...
+echo æ¸…ç†ç¼“å­˜
 rd /s /q "D:\UnityProjects_4.6\HYProjects\HYPTProject\Assets\Resources\Models"
-echo ĞÂ½¨Ä¿Â¼
+echo æ–°å»ºç›®å½•
 md "D:\UnityProjects_4.6\HYProjects\HYPTProject\Assets\Resources\Models"
-echo ¿ªÊ¼²Ù×÷
+echo å¼€å§‹æ“ä½œ
 start /min D:\Unity\Editor\Unity.exe -batchmode -projectPath D:\MyProject\BatchProject -executeMethod MyClass.QuicklyBuild
-echo ²Ù×÷Íê³É,°´ÈÎÒâ¼üÍË³ö...
+echo æ“ä½œå®Œæˆ,æŒ‰ä»»æ„é”®é€€å‡º...
 Pause
 taskkill /f /im unity.exe
