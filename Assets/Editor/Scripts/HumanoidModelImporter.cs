@@ -80,7 +80,6 @@ class HumanoidModelImporter : AssetPostprocessor
         //    MyAvatarMappingEditor editor = new MyAvatarMappingEditor();
         //    editor.Init(go, serializedObject);
         //    MyAvatarSetupTool.BoneWrapper[] bones = editor.MakePoseValid();
-
         //}
 
 
@@ -106,10 +105,29 @@ class HumanoidModelImporter : AssetPostprocessor
             skeletonDescription = skeletonBones.ToArray();
             Debug.Log(skeletonBones);
 
+            HumanTemplate template = Resources.Load(humanTemplateFile) as HumanTemplate;
+            
+            // TODO modify bone
             serializedObject = new SerializedObject(assetImporter);
             MyAvatarMappingEditor editor = new MyAvatarMappingEditor();
-            editor.Init(go, serializedObject);
+            editor.Init(go, skeletonDescription, template);
+            //editor.Init(go, serializedObject);
             MyAvatarSetupTool.BoneWrapper[] bones = editor.MakePoseValid();
+            for(int i = 0; i < skeletonDescription.Length; i++)
+            {
+                //SkeletonBone skeleton = skeletonDescription[i];
+                for(int j = 0; j < bones.Length; j++)
+                {
+                    Transform bone = bones[j].bone;
+                    if (bone && bone.name == skeletonDescription[i].name)
+                    {
+                        skeletonDescription[i].position = bone.localPosition;
+                        skeletonDescription[i].rotation = bone.localRotation;
+                        skeletonDescription[i].scale = bone.localScale;
+                    }
+                }
+            }
+            
 
             //ModelImporter modelImporter = assetImporter as ModelImporter;
 

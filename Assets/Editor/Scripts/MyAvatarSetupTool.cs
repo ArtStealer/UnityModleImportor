@@ -33,21 +33,20 @@ namespace MyUnityEditor
                 }
             }
 
-            public BoneWrapper(string humanBoneName, SkeletonBone[] skeletonBones, Dictionary<Transform, bool> bones)
+            public BoneWrapper(string humanBoneName, SkeletonBone[] skeletonBones, HumanTemplate template, Dictionary<Transform, bool> bones)
             {
                 m_HumanBoneName = humanBoneName;
-                Reset(skeletonBones, bones);
+                Reset(skeletonBones, template, bones);
             }
 
-            public void Reset(SkeletonBone[] skeletonBones, Dictionary<Transform, bool> bones)
+            public void Reset(SkeletonBone[] skeletonBones, HumanTemplate template, Dictionary<Transform, bool> bones)
             {
                 bone = null;
-                for(int i = 0; i < skeletonBones.Length; i++)
+
+                string boneName = template.Find(humanBoneName);
+                if (boneName != null)
                 {
-                    if (skeletonBones[i].name == humanBoneName)
-                    {
-                        bone = bones.Keys.FirstOrDefault(b => (b != null && b.name == humanBoneName));
-                    }
+                    bone = bones.Keys.FirstOrDefault(b => (b != null && b.name == boneName));
                 }
                 state = BoneState.Valid;
             }
@@ -376,12 +375,12 @@ namespace MyUnityEditor
             return -1;
         }
 
-        public static BoneWrapper[] GetHumanBones(SkeletonBone[] skeletonBones, Dictionary<Transform, bool> actualBones)
+        public static BoneWrapper[] GetHumanBones(SkeletonBone[] skeletonBones, Dictionary<Transform, bool> actualBones, HumanTemplate template)
         {
             string[] humanBoneNames = HumanTrait.BoneName;
             BoneWrapper[] bones = new BoneWrapper[humanBoneNames.Length];
             for (int i = 0; i < humanBoneNames.Length; i++)
-                bones[i] = new BoneWrapper(humanBoneNames[i], skeletonBones, actualBones);
+                bones[i] = new BoneWrapper(humanBoneNames[i], skeletonBones, template, actualBones);
             return bones;
         }
 

@@ -146,7 +146,7 @@ namespace MyUnityEditor
         //}
 
         
-        public void Init(GameObject go, SkeletonBone[] bones)
+        public void Init(GameObject go, SkeletonBone[] bones, HumanTemplate template)
         {
             if (go == null)
                 return;
@@ -159,7 +159,7 @@ namespace MyUnityEditor
             // Handle human bones
             if (m_Bones == null)
             {
-                m_Bones = MyAvatarSetupTool.GetHumanBones(bones, modelBones);
+                m_Bones = MyAvatarSetupTool.GetHumanBones(bones, modelBones, template);
             }
             //ValidateMapping();
 
