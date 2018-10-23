@@ -1,4 +1,4 @@
-﻿rem 发布工具
+rem 发布工具
 @echo off
 echo 启动 Unity.exe 请稍后...
 echo 清理缓存
