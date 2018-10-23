@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{F71529E5-D3B3-171A-FC75-0111E782082D}</ProjectGuid>
+    <ProjectGuid>{3C5D6DDC-7C2D-6A8B-1959-99876E4A903D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_4;UNITY_2018_2;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_4;UNITY_2018_2;UNITY_2018;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -49,7 +49,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
     <UnityProjectType>Editor:5</UnityProjectType>
-    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2018.2.4f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -61,54 +61,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AssetBundleBrowser\Editor\AssetBundleBrowserMain.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\AssetBundleBuildTab.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\AssetBundleDataSource\ABDataSource.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\AssetBundleDataSource\ABDataSourceProvider.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\AssetBundleDataSource\AssetDatabaseABDataSource.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\AssetBundleManageTab.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\AssetBundleModel\ABModel.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\AssetBundleModel\ABModelAssetInfo.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\AssetBundleModel\ABModelBundleInfo.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\AssetBundleTree.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\AssetListTree.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\BundleDetailList.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\InspectTab\AssetBundleInspectTab.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\InspectTab\AssetBundleRecord.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\InspectTab\InspectSingleBundle.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\InspectTab\InspectTreeView.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\MessageList.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\Editor\MessageSystem.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleBrowserMain.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleBuildTab.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\ABDataSource.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\ABDataSourceProvider.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\AssetDatabaseABDataSource.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleManageTab.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModel.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModelAssetInfo.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModelBundleInfo.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleTree.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetListTree.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\BundleDetailList.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\MessageList.cs" />
-    <Compile Include="Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\MessageSystem.cs" />
-    <Compile Include="Assets\Editor\Scripts\__HumanoidModelImporter.cs" />
     <Compile Include="Assets\Editor\Scripts\HumanoidModelImporter.cs" />
     <Compile Include="Assets\Editor\Scripts\MyAvatarMappingEditor.cs" />
     <Compile Include="Assets\Editor\Scripts\MyAvatarSetupTool.cs" />
     <Compile Include="Assets\Editor\Scripts\MyTools.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>E:/Git/UnityModleImportor/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/SVN/trunk/tools/ModelProcessor/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/Git/UnityModleImportor/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/SVN/trunk/tools/ModelProcessor/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/Git/UnityModleImportor/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/SVN/trunk/tools/ModelProcessor/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/Git/UnityModleImportor/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/SVN/trunk/tools/ModelProcessor/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -416,7 +383,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{9F9CFB03-B050-907A-8EF3-E16DF74D07D9}</Project>
+      <Project>{30C84E33-DA33-3CEF-1EDE-F2BFCDACF82C}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

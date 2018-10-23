@@ -121,8 +121,10 @@ public class Utility
 public class MyClass : EditorWindow
 {
     public static bool auto = true;
-    public static string pathImport = "D:/workspace/UnityEditor/Test/Import";
-    public static string pathExport = "D:/workspace/UnityEditor/Test/Export";
+    //public static string pathImport = "D:/workspace/UnityEditor/Test/Import";
+    //public static string pathExport = "D:/workspace/UnityEditor/Test/Export";
+    public static string pathImport = "D:/Work/AutoRigModel/RigModel";
+    public static string pathExport = "D:/Work/AutoRigModel/AssetBundle";
     public static bool dealModelImport = false;
 
 
@@ -285,15 +287,18 @@ public class MyClass : EditorWindow
         
         BuildTarget targetPlatform = EditorUserBuildSettings.activeBuildTarget;
         BuildPipeline.BuildAssetBundles(outputPath, BuildAssetBundleOptions.None, targetPlatform);
-        
+
         AssetDatabase.Refresh();
-        //Delete();
+        Copy(Application.dataPath + "/Resources", Application.dataPath + "/ModelCache");
+        Delete();
+        AssetDatabase.Refresh();
     }
 
     // 清空文件夹
     public static void Delete()
     {
-        DirectoryInfo info = new DirectoryInfo(Application.dataPath + "/Resources/Models");
+        //DirectoryInfo info = new DirectoryInfo(Application.dataPath + "/Resources/Models");
+        DirectoryInfo info = new DirectoryInfo(Application.dataPath + "/Resources");
         info.Delete(true);
     }
 

@@ -7,9 +7,10 @@ using UnityEngine;
 
 public class LoadAvatar : MonoBehaviour {
 
-    public string ModelURL = "";
+    public string ModelURL = "http://127.0.0.1/AssetBundle/Windows/2";
+    public string ModelName = "2";
     public RuntimeAnimatorController animatorController;
-    public Avatar commonHumanAvatar;
+    //public Avatar commonHumanAvatar;
 
     // Use this for initialization
     void Start () {
@@ -30,7 +31,7 @@ public class LoadAvatar : MonoBehaviour {
         {
             AssetBundle bundle = www.assetBundle;
 
-            AssetBundleRequest request = bundle.LoadAssetAsync("2", typeof(GameObject));
+            AssetBundleRequest request = bundle.LoadAssetAsync(ModelName, typeof(GameObject));
 
             yield return request;
 
@@ -60,7 +61,7 @@ public class LoadAvatar : MonoBehaviour {
             //avatar.name = "avatar";
             //Debug.Log(avatar.isHuman ? "is human" : "is generic");
 
-            Avatar avatar = CreateAvatar(go);
+            //Avatar avatar = CreateAvatar(go);
 
             go.transform.localScale = new Vector3(100,100,100);
 
@@ -68,7 +69,7 @@ public class LoadAvatar : MonoBehaviour {
 
             //animator.GetBoneTransform(HumanBodyBones.)
             //animator.InterruptMatchTarget();
-            animator.avatar = avatar;
+            //animator.avatar = avatar;
             //animator.avatar = commonHumanAvatar;
             animator.runtimeAnimatorController = animatorController;
 
